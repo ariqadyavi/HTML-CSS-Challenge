@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+
+body{
+    font-family: 'Nunito', 'sans-serif';
+    margin: 0;
+    background-color: rgb(201, 201, 201);
+}
+
+.container{
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.host{
+    min-height: 200px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.dot{
+    float: right;
+    font-size: 26px;
+}
+
+.username{
+    color: rgb(37, 150, 190);
+}
+
+.detail{
+    margin-top: 20px;
+    list-style-type: none;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.detail2{
+    list-style-type: none;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.inline{
+    color: lightgray;
+}
+
+.date{
+    color: rgb(175, 170, 170);
+}
+
+.caption{
+    margin-left: 20px;
+}
+
+.content{
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.captionimg{
+    max-width: 100%;
+}
+
+.like{
+    margin-top: 0px;
+    margin-left: 0px;
+    padding: 20px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+
+.like > ul{
+    list-style-type: none;
+    margin-left:0px;
+    padding-left: 20px;
+}
+
+.like > ul> li{
+    display: inline-block;
+}
+
+.love{
+    font-size: 28px;
+}
+
+.share{
+    font-size: 28px;
+}
+
+.comment{
+    min-height: 200px;
+    background-color: rgb(228, 228, 228);
+    margin-bottom: 20px;
+}
+
+.cmnt{
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+textarea{
+    resize: none;
+    width: auto;
+}
+
+.post{
+    background-color: rgb(37, 150, 190);
+    border: none;
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 4px;
+}
